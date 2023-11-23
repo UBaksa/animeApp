@@ -1,6 +1,5 @@
 import React from "react";
 import "./Homepage.css";
-import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 
 export default function Homepage() {
   return (
@@ -29,6 +28,30 @@ export default function Homepage() {
       </div>
       <footer>
         <button className="viewfull">View Full Site</button>
+        <p>
+          JojoTV is a safe site to watch anime, with only one ad to cover server
+          costs and constant scanning to ensure that all ads are clean. If you
+          find any suspicious ads, you can forward the information to JojoTV,
+          and they will remove them.
+        </p>
+        <p>
+          JojoTV stands out from other anime streaming sites because of its
+          focus on safety, content library, quality/resolution, streaming
+          experience, updates, user interface, device compatibility, and
+          customer care. The site offers popular, classic, and current anime
+          titles from all genres, including action, drama, kids, fantasy,
+          horror, mystery, police, romance, school, comedy, music, game, and
+          more. All titles come with English subtitles or are dubbed in multiple
+          languages, and users can choose from various quality settings to
+          ensure a smooth streaming experience.
+        </p>
+        <p>
+          If you have trouble accessing JojoTV, you can try anix or gogoanime,
+          JojoTV is committed to providing a trustworthy and safe site for anime
+          streaming and offers excellent customer service. Give JojoTV a try and
+          spread the word if you like it.
+        </p>
+        <h3>©2023 JojoTV. All rights reserved.</h3>
       </footer>
     </div>
   );

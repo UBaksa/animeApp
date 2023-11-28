@@ -7,10 +7,10 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Homepage() {
   return (
     <div className="homepage">
-      <Navbar />
       <Routes>
         <Route path="/mainpage" element={<Mainpage />} />
       </Routes>
+      <Navbar />
       <div className="afterheader">
         <div className="left">
           <img src="https://spikesite2-17132.kxcdn.com/wp-content/uploads/Logo_symbol_512x512_Trans.png?format=webp"></img>

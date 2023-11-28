@@ -1,14 +1,16 @@
 import React from "react";
 import "./Homepage.css";
-
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
+import Mainpage from "../Mainpage/Mainpage";
+import Navbar from "../../components/Navbar/Navbar";
 export default function Homepage() {
   return (
     <div className="homepage">
-      <header>
-        <a href="#">Home</a>
-        <a href="#">Trending</a>
-        <a href="#">Hot</a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/mainpage" element={<Mainpage />} />
+      </Routes>
       <div className="afterheader">
         <div className="left">
           <img src="https://spikesite2-17132.kxcdn.com/wp-content/uploads/Logo_symbol_512x512_Trans.png?format=webp"></img>
